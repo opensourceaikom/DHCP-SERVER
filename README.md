@@ -5,7 +5,7 @@ comments: true
 tag:
 - Cisco
 - Networking
-author: nurulfajar
+author: Aikom
 ---
 Konfigurasi DHCP Server menggunakan 1 buah router, switch dan hub.
 
