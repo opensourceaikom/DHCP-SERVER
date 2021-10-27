@@ -12,18 +12,18 @@ Konfigurasi DHCP Server menggunakan 1 buah router, switch dan hub.
 
 * ### Buat topologi jaringan seperti gambar dibawah.
 
-![file.png]({{site.baseurl}}/assets/images/cisco/topology-2.png)
+![file.png]({{site.baseurl}}/dhcp/1.png)
 
 * ### Konfigurasi IP server.
 
-![file.png]({{site.baseurl}}/assets/images/cisco/setting-ip-server.png)
+![file.png]({{site.baseurl}}/dhcp/2.png)
 
 * Sesuaikan dengan konfigurasi yang ingin kita buat di router.
 
 
 * ### Konfigurasi DHCP service pada server.
 
-![file.png]({{site.baseurl}}/assets/images/cisco/setting-dhcp-server.png)
+![file.png]({{site.baseurl}}/dhcp/3.png)
 
 * Pada bagian `service`, ubah menjadi `on`.
 * Pada bagian `Default Gateway`, isi sesuai default gateway.
@@ -33,7 +33,7 @@ Konfigurasi DHCP Server menggunakan 1 buah router, switch dan hub.
 
 * ### Konfigurasi Ip & Subnetmask `fa` pada router.
 
-![file.png]({{site.baseurl}}/assets/images/cisco/setting-router.png)
+![file.png]({{site.baseurl}}/dhcp/4.png)
 
 * Jika ingin membuat password untuk akses previledge, gunakan perintah `enable secret "password"`.
 
@@ -41,14 +41,14 @@ Konfigurasi DHCP Server menggunakan 1 buah router, switch dan hub.
 
 * Contoh PC0
 
-![file.png]({{site.baseurl}}/assets/images/cisco/dhcp-PC0.png)
+![file.png]({{site.baseurl}}/dhcp/5.png)
 
 * Contoh CP2
 
-![file.png]({{site.baseurl}}/assets/images/cisco/dhcp-PC2.png)
+![file.png]({{site.baseurl}}//dhcp/6.png)
 
 * ### Test ping ke server
 
-![file.png]({{site.baseurl}}/assets/images/cisco/dhcp-PC2-ping.png)
+![file.png]({{site.baseurl}}/dhcp/7.png)
 
 Done.
